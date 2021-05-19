@@ -1,5 +1,5 @@
-module "dev-compute" {
-  source = "./modules/compute"
+module "dev-vm" {
+  source = "./modules/vm"
   count = var.num_instances
 }
 
