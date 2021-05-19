@@ -1,5 +1,5 @@
 module "prod-vm" {
-  source = "./modules/compute"
+  source = "./modules/vm"
   count = var.num_instances
 }
 
